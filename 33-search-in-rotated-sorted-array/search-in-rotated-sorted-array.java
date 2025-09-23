@@ -28,7 +28,7 @@ class Solution {
             else
             {
                 //right of L2
-                if(nums[mid]<=target&&target<=nums[ei])
+                if(nums[mid]<target&&target<=nums[ei])
                 {
                     si = mid+1;
                 }
